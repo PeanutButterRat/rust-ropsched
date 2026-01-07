@@ -10,6 +10,10 @@ llvm-config = "../llvm-ropsched/build/bin/llvm-config"
 
 [build]
 extended = true
+target = [
+    "x86_64-unknown-linux-gnu",
+    "aarch64-unknown-linux-gnu"
+]
 
 [rust]
 channel = "dev"
