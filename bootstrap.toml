@@ -4,8 +4,12 @@ change-id = "ignore"
 
 [llvm]
 download-ci-llvm = false
+link-shared = true
 
 [target.x86_64-unknown-linux-gnu]
+llvm-config = "../llvm-ropsched/build/bin/llvm-config"
+
+[target.aarch64-unknown-linux-gnu]
 llvm-config = "../llvm-ropsched/build/bin/llvm-config"
 
 [build]
